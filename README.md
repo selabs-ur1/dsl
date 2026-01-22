@@ -238,7 +238,7 @@ if (!client) {
 setup(client, getDocumentUri(wrapper)); // setup function of the setup.ts file
 ```
 
-You will find an example of communication between the client and the server from the client's perspective in the `setup.ts` file (lines 63 and 66).
+You will find an example of communication between the client and the server from the client's perspective in the `setup.ts` file (lines 101 and 105).
 
 On the server side, we need to modify the function `src/language/main-browser.ts` by adding this code at the end of the file:
 
